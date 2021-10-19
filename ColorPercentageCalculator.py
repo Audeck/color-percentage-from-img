@@ -13,4 +13,5 @@ def calculateColor(image, color):
 
     return blackPixCount/(width*height)
 
-print(str(calculateColor("FYKOSpdf1200.png", (0, 0, 0)) * 100) + "%")  # Print out the final percentage
+if __name__ == "__main__":
+    print(str(calculateColor("FYKOSpdf1200.png", (0, 0, 0)) * 100) + "%")  # Print out the final percentage
